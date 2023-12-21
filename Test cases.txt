@@ -1,0 +1,33 @@
+Instabug challenge
+
+Third part: Test Automation
+Test cases:
+1. Username: standard_user , Password: secret_sauce
+    Expected output: Login successful.
+
+2. Username: problem_user , Password: secret_sauce1
+    Expected output: Login unsuccessful. Wrong credentials.
+
+3. Username: problem_user , Password: secret_sauce
+    Expected output: Login successful.
+
+4. Username: locket_out_user , Password: secret_sauce
+    Expected output: Login unsuccessful. This user has been locked out.
+
+5. Username: performance_glitch_user , Password: secret_sauce
+    Expected output: Login successful.
+
+6. Username: error_userr , Password: secret_sauce
+    Expected output: Login unsuccessful. Wrong credentials.
+
+7. Username: error_user , Password: secret_sauce
+    Expected output: Login successful.
+
+8. Username: visual_user , Password: secret_sauce
+    Expected output: Login successful.
+
+9. Username: problem_user , Password: secret
+    Expected output: Login unsuccessful. Wrong credentials.
+
+
+	
